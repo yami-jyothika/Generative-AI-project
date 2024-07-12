@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jyan_Sugar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FLogo%2F9a504e90-b61e-4b89-a5e2-ef5f27347eae.gif&w=640&q=100" alt="Logo">
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder='Try "Liquid Lipstick"'>
+                <button type="button" class="search-button">
+                    <i class="fa fa-search" aria-hidden="true"></i> Search
+                </button>
+            </div>
+            <div class="user-actions">
+                <a href="#" class="icon"><i class="fa fa-user-circle" aria-hidden="true"></i>Login/Register</a>
+                <a href="#" class="icon"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                <a href="#" class="icon"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                <a href="#" class="icon"><i class="fa fa-percent" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </header>
+    <aside class="fixed-gif">
+        <img src="https://d32baadbbpueqt.cloudfront.net/Homepage/085f8095-4a3f-49ae-9828-438d0f90b8e8.gif" alt="Your GIF">
+    </aside>
+    <div class="menu-container">
+        <ul class="menu">
+            <li><a href="#">SUGAR PLAY</a></li>
+            <li><a href="#">LIPS</a></li>
+            <li><a href="#">EYES</a></li>
+            <li><a href="#">FACE</a></li>
+            <li><a href="#">NAILS</a></li>
+            <li><a href="#">SKINCARE</a></li>
+            <li><a href="#">ACCESSORIES</a></li>
+            <li><a href="#">GIFTING</a></li>
+            <li><a href="#">BESTSELLERS</a></li>
+            <li><a href="#">NEW LAUNCHERS</a></li>
+            <li><a href="#">OFFERS</a></li>
+            <li><a href="#">BLOCKS</a></li>
+        </ul>
+    </div>
+    <div class="slideshow-container">
+        <div class="slides">
+            <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2F4fb1fd43-7906-4bd7-922a-749c3fdc3b6d.jpg&w=1920&q=100" alt="Slide 1">
+            <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Fbefc3ba7-c1cc-40d7-b2db-42368c27141a.jpg&w=1920&q=100" alt="Slide 2">
+            <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2F3012f287-4903-421c-9406-2b70930299ee.jpg&w=1920&q=100" alt="Slide 3">
+            <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Faac7062e-d4cc-4894-9f94-27334d340aba.jpg&w=1920&q=100" alt="Slide 4">
+            <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2F965883cd-8d9e-4b9b-9f0c-89217901cd08.jpg&w=1920&q=100" alt="Slide 5">
+            <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2F58062064-cd0c-4aee-8e96-30a8e6a7e760.jpg&w=1920&q=100" alt="Slide 6">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="dots-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+    </div>
+    <section class="hot-deals">
+        <h2>HOT DEALS</h2>
+        <div class="deal-images">
+            <div class="deal">
+                <img src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/b73cecf6-ad45-4977-a8c5-62cc37c3b05b.png&w=1920&q=75" alt="Deal 1">
+            </div>
+            <div class="deal">
+                <img src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/9616f83b-2e9c-4fc8-87a9-01a098e6db9f.jpg&w=1920&q=75" alt="Deal 2">
+            </div>
+            <div class="deal">
+                <img src="https://d32baadbbpueqt.cloudfront.net/Homepage/9fb6c32a-c10d-45b4-95a0-92a65508075c.gif" alt="Deal 3">
+            </div>
+        </div>
+    </section>
+
+    <section class="hot-deals">
+        <h2>SUGAR ICONS IN-FOCUS</h2>
+        <div class="deal-images">
+            <div class="deal">
+                <img src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/a89d9ced-86db-4daf-bf27-d817f01456cb.jpg&w=1920&q=75" alt="Deal 1">
+            </div>
+            <div class="deal">
+                <img src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/70839446-83c1-498b-b348-e192db0fbadb.jpg&w=1920&q=75" alt="Deal 2">
+            </div>
+            <div class="deal">
+                <img src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/0bdb882c-d58b-4a85-b3ca-b5ac4d681430.jpg&w=1920&q=75" alt="Deal 3">
+            </div>
+        </div>
+    </section>
+
+    <section class="hot-deals">
+        <h2>EXCLUSIVE BIRTHDAY COMBOS</h2>
+        <div class="deal-images">
+            <div class="deal">
+                <img src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/5908fd0c-0e17-456c-be70-35b334713f4a.jpg&w=1920&q=75" alt="Deal 1">
+            </div>
+            <div class="deal">
+                <img src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/7d57a99a-67b1-4762-8f2a-b305f6272253.jpg&w=1920&q=75" alt="Deal 2">
+            </div>
+            <div class="deal">
+                <img src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/6febc296-a481-47eb-8ca5-e904a6ebaf09.jpg&w=1920&q=75" alt="Deal 3">
+            </div>
+        </div>
+    </section>
+
+    <section class="hot-deals">
+        <h2>MOUSSE MUSE LIP CREAM</h2>
+        <div class="big-images">
+            <div class="big">
+                <img src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/85d7b52c-6823-404f-99e0-d6e1ba1d4019.jpg&w=1920&q=75" alt="Deal 1">
+            </div>
+        </div>
+    </section>
+
+    <section class="hot-deals">
+        <h2>SUGAR BEAUTY BLOG</h2>
+        <div class="deal-images">
+            <div class="deal">
+                <img src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/27dc3584-f255-4797-989a-c024b6e8e75a.jpg&w=1920&q=75" alt="Deal 1">
+            </div>
+            <div class="deal">
+                <img src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/12646774-57aa-47d3-acc0-18e97ecaa1e3.jpg&w=1920&q=75" alt="Deal 2">
+            </div>
+            <div class="deal">
+                <img src="https://in.sugarcosmetics.com/_next/image?url=https://d32baadbbpueqt.cloudfront.net/Homepage/ebb2641c-c5d2-40fa-b1f9-c6d8b3609ecf.jpg&w=1920&q=75" alt="Deal 3">
+            </div>
+        </div>
+    </section>  
+    
+    <section class="hot-deals">
+        <h2>REFER YOUR FRIENDS</h2>
+        <div class="big-images">
+            <div class="big">
+                <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Fb1221319-f8de-4522-90bb-ad1f5365be34.jpg&w=1920&q=75" alt="Deal 1">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-left">
+                <p>READ MORE ABOUT SUGAR COSMETICS ></p>
+            </div>
+            <div class="footer-center">
+                <h2>LET'S STAY IN TOUCH</h2>
+                <p>Get the latest beauty tips straight to your inbox. Can’t wait to connect!</p>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Enter Email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-right">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.7zFjo3LFZRn2c11rPzMtdAHaEK&pid=Api&P=0&h=180" alt="Footer Logo">
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
